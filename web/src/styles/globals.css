@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#121214] bg-galaxy bg-cover bg-no-repeat 
+ selection:bg-violet-900;
+}
+
+::-webkit-scrollbar {
+  @apply bg-[#2A2634] w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-violet-900 rounded;
+}
+
+img,
+svg {
+  @apply selection:bg-transparent pointer-events-none;
+}

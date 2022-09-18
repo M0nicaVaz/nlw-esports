@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "./node_modules/.bin/pm2 start src/server.ts --watch",
     "build": "tsc",

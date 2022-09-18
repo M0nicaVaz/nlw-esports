@@ -4,7 +4,7 @@
 
 body {
   @apply bg-[#121214] bg-galaxy bg-cover bg-no-repeat 
- selection:bg-violet-900;
+ selection:bg-violet-900 overflow-x-hidden;
 }
 
 ::-webkit-scrollbar {

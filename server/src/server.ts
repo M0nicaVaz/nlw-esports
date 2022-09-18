@@ -23,7 +23,7 @@ app.get('/games', async (req, res) => {
     },
   });
 
-  return res.json([games]);
+  return res.json(games);
 });
 
 app.get('/games/:id/ads', async (req, res) => {
@@ -96,4 +96,5 @@ app.get('/ads/:id/discord', async (req, res) => {
   });
 });
 
-app.listen(3333);
+const PORT = process.env.PORT || 3333;
+app.listen(PORT);
